@@ -24,6 +24,7 @@ export const appConfig: ApplicationConfig = {
       domain: 'dev-m3p6dptt4vt1z8gl.us.auth0.com',
       clientId: 'w1Mwc2z2upXSAd0H2exfWwrysFThtEfn',
       authorizationParams: {
+        audience: 'https://spotifycloneback-production.up.railway.app/',
         redirect_uri: window.location.origin,
       },
     }),
