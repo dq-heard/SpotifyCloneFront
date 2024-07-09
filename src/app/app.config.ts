@@ -24,7 +24,7 @@ export const appConfig: ApplicationConfig = {
       domain: 'dev-m3p6dptt4vt1z8gl.us.auth0.com',
       clientId: 'w1Mwc2z2upXSAd0H2exfWwrysFThtEfn',
       authorizationParams: {
-        audience: 'https://dev-m3p6dptt4vt1z8gl.us.auth0.com/api/v2/',
+        audience: 'https://dev-m3p6dptt4vt1z8gl.us.auth0.com/api/v2',
         redirect_uri: window.location.origin,
       },
     }),
